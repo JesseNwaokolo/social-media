@@ -90,7 +90,7 @@ function Navbar() {
           </div>
 
           {/* MENU_BUTTON */}
-          <div className="md:hidden">
+          <div className="md:hidden ">
             <button
               onClick={() => setMenuOpen((prev) => !prev)}
               className="text-gray-300 focus:outline-none"
@@ -128,7 +128,7 @@ function Navbar() {
 
       {menuOpen && (
         <div className="md:hidden bg-[rgba(10,10,10,0.9)]">
-          <div className="px-2 pt-2 pb-3 space-y-1">
+          <div className="px-2 pt-2 pb-3 space-y-1" >
             <Link
               to={"/"}
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700"

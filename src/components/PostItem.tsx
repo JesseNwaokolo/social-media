@@ -9,7 +9,7 @@ function PostItem({ post }: Props) {
   return (
     <div className="relative group ">
       <div className="absolute -inset-1 rounded-[20px] bg-gradient-to-r from-pink-600 to-purple-600 blur-sm opacity-0 group-hover:opacity-100 transition-all duration-300" />
-      <Link to={`post/${post.id}`} className="block relative z-10">
+      <Link to={`/post/${post.id}`} className="block relative z-10">
         <div className="w-80 h-76 bg-[rgb(24,27,32)] border border-[(84,90,106)] rounded-[20px] text-white flex flex-col p-4">
           {/* HEADER */}
           <div className="flex items-center space-x-2">
